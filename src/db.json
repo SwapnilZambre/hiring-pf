@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "ab31",
+      "username": "swapnil",
+      "email": "admin@123.com",
+      "password": "test@1",
+      "role": "Admin"
+    },
+    {
+      "id": "8b22",
+      "username": "aniket",
+      "email": "account@123gmial.com",
+      "password": "test@2",
+      "role": "Account"
+    },
+    {
+      "id": "3b9d",
+      "username": "pratik",
+      "email": "manager@123.com",
+      "password": "test@3",
+      "role": "Manager"
+    },
+    {
+      "id": "f868",
+      "username": "test",
+      "email": "support@123.com",
+      "password": "test@4",
+      "role": "Support"
+    },
+    {
+      "id": "5ae0",
+      "username": "testuser",
+      "email": "recruiter@123.com",
+      "password": "test@5",
+      "role": "Recruiter"
+    },
+    {
+      "id": "d7d2",
+      "username": "test@123.com",
+      "email": "test@123.com",
+      "password": "test@6",
+      "role": "Account"
+    },
+    {
+      "id": "9aba",
+      "username": "aniket g",
+      "email": "data@123.com",
+      "password": "test@7",
+      "role": "Admin"
+    }
+  ]
+}

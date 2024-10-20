@@ -1,0 +1,25 @@
+<div class="mt-4 p-4 mx-auto bg-white ">
+  <div class="flex justify-end mb-4">
+    <button class="bg-blue-500 text-white font-semibold py-2 px-4 rounded hover:bg-blue-600 transition duration-200" (click)="addUser()">
+      Add User
+    </button>
+  </div>
+  <table class="min-w-full bg-gray-100 border border-gray-200 rounded-lg overflow-hidden">
+    <thead class="bg-gray-800 text-white">
+      <tr>
+        <th scope="col" class="px-4 py-2 text-left">#</th>
+        <th scope="col" class="px-4 py-2 text-left">First</th>
+        <th scope="col" class="px-4 py-2 text-left">Last</th>
+        <th scope="col" class="px-4 py-2 text-left">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of userList; let i = index" class="border-b hover:bg-gray-200">
+        <th scope="row" class="px-4 py-2">{{ i + 1 }}</th>
+        <td class="px-4 py-2">{{ user.username }}</td>
+        <td class="px-4 py-2">{{ user.email }}</td>
+        <td class="px-4 py-2">{{ user.role }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>

@@ -1,0 +1,39 @@
+<body>
+  <div class="container">
+    <form [formGroup]="loginForm" (ngSubmit)="logIn()">
+      <h1>Login</h1>
+      <div class="input-box">
+        <input type="email" formControlName="email" placeholder="Email" />
+        <i class="bx bx-envelope"></i>
+      </div>
+
+      <div class="input-box">
+        <input
+          type="password"
+          formControlName="password"
+          placeholder="Password"
+        />
+        <i class="bx bx-lock-alt"></i>
+      </div>
+      <div class="remember">
+        <label>
+          <input type="checkbox" formControlName="rememberMe" /> Remember me
+        </label>
+        <a href="#">Forgot password?</a>
+      </div>
+      <button type="submit" class="btn">Login</button>
+      <div class="register">
+        <p>
+          Don't have an account? <br />
+          <a href="#">Register</a>
+        </p>
+      </div>
+    </form>
+  </div>
+</body>
+<div class="row">
+  <p>
+    <label for="">use this to login</label>
+    "email": {{ email }}, "password": {{ pass }},
+  </p>
+</div>
